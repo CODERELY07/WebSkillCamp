@@ -81,6 +81,7 @@ form{
 }
 .input-groups{
     line-height: 35px;
+    position: relative;
 }
 .input-groups input{
     width: 100%;
@@ -96,6 +97,12 @@ form{
 .input-groups label{
     line-height: 25px;
     font-weight: 600;
+}
+.input-groups i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    top: 46px;
 }
 .recovery{
     float: right;

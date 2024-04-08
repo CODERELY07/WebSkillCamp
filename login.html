@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <script defer src="login.js"></script>
 </head>
 <body>
@@ -24,12 +25,13 @@
                 </div>
                 <div class="input-groups">
                     <label for="password">Password</label>
-                    <input type="password" name="password" id="password">
+                    <input type="password" name="password" id="inputField1">
+                    <i class="fa-regular fa-eye-slash eye" id="showPassword1"></i>
                     <span class="msg" id="errorPass"></span>
                 </div>
                 <small class="recovery">Forgot Password? <a href="#">Recover</a></small>
                 <button class="btn loginbtn" id="login-btn" name="login" type="submit">Log-in</button>
-
+                
                 <div class="signup-using">
                     <span>or Log-in using: </span>
                     <div class="account-icons">
