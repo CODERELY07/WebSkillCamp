@@ -73,6 +73,7 @@ nav ul li{
 }
 nav ul li a{
     color: var(--text-color-light);
+    font-size: 16px;
 }
 nav ul li a:hover{
     text-decoration: underline;
@@ -82,9 +83,8 @@ nav ul li a:hover{
     display: flex;
     padding: 3px 10px;
     border-radius: 100px;
-    width: 100%;
+    width: 20%;
     margin-right: 50px;
-    max-width: 280px;
     justify-content: space-between;
 }
 .search_con input{
@@ -311,6 +311,15 @@ section{
     margin: 40px 9%;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     border: none;
+}
+@media only screen and (max-width:1100px) {
+    nav ul li a{
+        color: var(--text-color-light);
+        font-size: 14px;
+    }
+    .search_con{
+        width: 10%;
+    }
 }
 @media only screen and (max-width:950px) {
     nav {
