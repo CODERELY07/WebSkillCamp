@@ -1,0 +1,83 @@
+
+.main-container{
+    width: 80%;
+    margin: 100px auto;
+}
+.main-container img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.main-container .lorem{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.prof{
+    display: flex;
+}
+.prof1{
+    display: flex;
+    margin-left: 20px;
+}
+.reply1{
+    margin-left: 40px;
+}
+.semicolon{
+    margin-left: 60px;
+}
+.add-comment{
+    background-color: white;
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.sit-amet .helpful{
+    padding: 0 20px;
+    border-right: solid 1px black;
+    border-left: solid 1px black;
+    margin: auto 10px;
+    
+}
+.sit-amet{
+    margin-left: 100px;
+    cursor: pointer;
+}
+.erika-reply{
+    margin-top: 40px;
+    margin-left: 90px;
+}
+@media only screen and (max-width:800px) {
+    .prof1{
+        display: flex;
+        margin-left: 0px;
+    }
+    .reply1{
+        margin-left: 0px;
+    }
+    .semicolon{
+        margin-left: 0px;
+    }
+    .add-comment{
+        background-color: white;
+        border: solid 1px black;
+        padding: 0px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    .sit-amet .helpful{
+        padding: 0 20px;
+        border-right: solid 1px black;
+        border-left: solid 1px black;
+        margin: auto 0px;
+        
+    }
+    .sit-amet{
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    .erika-reply{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+}
