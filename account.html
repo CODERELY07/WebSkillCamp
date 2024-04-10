@@ -8,6 +8,7 @@
     <script defer src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="account.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="container">
@@ -76,7 +77,7 @@
         <div class="account_manage_wrapper">
             <div class="flex">
                 <div class="img_container">
-                    <img src="" alt="">
+                    <img src="img/PROFILES/lorempf.jpg" alt="">
                 </div>
                 <div class="profile">
                     <h6 class="username">Juan Ipsum S.</h6>
@@ -94,8 +95,10 @@
 
         <div class="personal_information">
             <div class="each_box">
-                <div class="information_header shows" id="show">
-                    <h4>Personal Information</h4>
+                <div class="information_header shows">
+                    <div  id="show">
+                        <i class="fa-solid fa-chevron-down"></i><h4>Personal Information</h4>
+                    </div>
                 </div>
                 <div class="information_body hide">
                     <ul class="personal_info">
@@ -109,7 +112,9 @@
 
             <div class="each_box">
                 <div class="information_header shows">
-                    <h4>Contact Information</h4>
+                    <div  id="show">
+                        <i class="fa-solid fa-chevron-down"></i><h4>Contact Information</h4>
+                    </div>
                 </div>
                 <div class="information_body hide">
                     <ul class="contact_info">
@@ -122,7 +127,9 @@
 
             <div class="each_box">
                 <div class="information_header shows">
-                    <h4>Activity Score</h4>
+                    <div id="show">
+                        <i class="fa-solid fa-chevron-down"></i><h4>Activity Score</h4>
+                    </div>
                 </div>
                 <div class="information_body hide">
                     <ul class="activity_info">
@@ -132,7 +139,7 @@
             </div>
         </div>
     </section>
-
+    
     <script>
         const logout = document.getElementById('logout');
         console.log(logout)

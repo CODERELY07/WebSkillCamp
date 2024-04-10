@@ -18,6 +18,9 @@
 }
 .service_header{
     padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .flex_box{
     background-color:var(--service-bg-box);

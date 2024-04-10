@@ -123,6 +123,11 @@ nav ul li a:hover{
 .btn_con button#login:hover{
     color: #f9f17d;
 }
+.btn_con #logout{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: var(--text-color-light);
+}
 /* need to fix */
 .languages{
     background-color: var(--languages-bg-color);
@@ -251,6 +256,15 @@ section{
     border-bottom: 3px solid var(--section-bg-one);
     width: 100%;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pin{
+    width: 40px;
+}
+.box_header span{
+    width: 100%;
 }
 .box_container .box_body{
     width: 100%;
@@ -275,7 +289,7 @@ section{
 /* Section 2 VId */
 .vid_wrapper{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 30px;
     align-items: center;
     margin: 0 auto;
@@ -287,8 +301,9 @@ section{
 .vid_wrapper .text p{
     margin: 25px 0;
 }
-.vid_wrapper video{
-    width: 50%;
+.vid_wrapper img{
+    width: 95%;
+    float: right;
     height: 100%;
 }
 #more_btn{
@@ -368,9 +383,6 @@ section{
     .vid_wrapper .text{
         width: 90%;
     }
-    .vid_wrapper video{
-        width: 90%;
-    }
 }   
 @media screen and (max-width:600px) {
         /* Section 2 VId */
@@ -380,7 +392,7 @@ section{
         .vid_wrapper .text{
              width: 90%;
         }
-        .vid_wrapper video{
+        .vid_wrapper img{
             margin-top: -50px;
             width: 100%;
         }

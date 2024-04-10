@@ -5,7 +5,6 @@ footer a{
     color: var(--text-color-light);
 }
 .logo_footer_con{
-
     padding: 30px 0 20px;
     text-align: center;
     border-bottom: 1px solid var(--text-color-light);
@@ -13,7 +12,7 @@ footer a{
 .footer_navagations{
     display: flex;
     flex-wrap: wrap;
-    height: 300px;
+    padding-bottom: 20px;
     justify-content: space-around;
     align-items: center;
 }
@@ -32,8 +31,9 @@ footer a{
    line-height: 70px;
 }
 .footer_about{
+    padding-left: 20px;
     width: 25%;
-    min-width: 200px;
+    min-width: 350px;
     font-weight: lighter;
 }
 .footer_navagations div:last-child{
@@ -58,12 +58,18 @@ footer svg{
     max-width: 250px;
     justify-content: space-between;
 }
-@media only screen and (max-width:400px){
+@media only screen and (max-width:350px){
     .footer_navagations{
         align-items: flex-start;
     }
     .footer_navagations div:last-child{
         margin-top: 20px;
+    }
+    .footer_about{
+        padding-left: 0px;
+        font-size: 14px;
+        text-align: center;
+        min-width: 280px;
     }
     
 }

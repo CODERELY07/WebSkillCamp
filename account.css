@@ -23,10 +23,16 @@
     cursor: pointer;
 }
 .img_container{
-    width: 100px;
+    width: 120px;
     height: 100px;
     background-color: rgb(62, 149, 152);
-    border-radius: 50%;
+    clip-path: circle();
+    position: relative;
+}
+.img_container img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 .profile{
     margin-left: 20px;
@@ -60,4 +66,34 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 1s ease-in;
+}
+#show{
+    display: flex;
+    gap: 20px;
+    width: max-content;
+}
+
+@media only screen and (max-width:600px){
+    .account_manage_wrapper{
+        flex-direction: column;
+        align-items:flex-start;
+        gap: 30px;
+    }
+}
+@media only screen and (max-width:400px){
+    .flex{
+        display: block;
+        width: 100%;
+    }
+    .img_container{
+        clip-path: circle();
+        display: block;
+        margin: 10px auto;
+    }
+    .profile{
+        text-align: center;
+    }
+    .profile h6{
+        font-size: 1.5rem;
+    }
 }
